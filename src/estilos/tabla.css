@@ -1,0 +1,110 @@
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+table td, table th{
+    padding:5px 10px;
+}
+
+table button{
+    text-decoration:none !important;
+    padding: 0 !important;
+}
+
+table thead{
+    background-color:#EFEFFF;
+    color: #504EAE
+}
+
+table tr:nth-child(even) {
+    background-color: #FAFAFE;
+}
+
+table button span, table a span{
+    display:none;
+}
+
+
+@media (max-width: 30em){
+
+    table button span, table a span{
+        display:inline;
+        color:white;
+        background-color:#504EAE;
+    }
+
+    table a{
+        background-color:#504EAE !important; 
+        text-decoration:none !important;
+        padding:5px !important;
+    }
+    
+    table i {
+        color: white !important;
+        margin-right: 10px;
+    }
+    
+    table button{
+        background-color:#504EAE !important;
+        padding:5px 10px !important;
+        display:inline-block;
+    }
+
+    table button i{
+        color:white;
+    }
+    
+
+    table{
+        width:100%;
+    }
+
+    table tr, table th{
+        border:none !important;
+    }
+
+    table tr{
+        display:flex;
+        flex-direction: column;
+        padding:0 1em;
+        margin-bottom:1em;
+    }
+
+    table thead{
+        display:none;
+    }
+
+    table td{
+        text-align:center;
+        background-color: #EFEFFF;
+        padding:10px 20px;
+    }
+
+    table td[data-titulo]{
+        display:flex;
+        flex-direction: column;
+    }
+
+    table td[data-titulo]::before{
+        content: attr( data-titulo );
+        font-weight:bold;
+        color: steelblue;
+    }
+
+    table td[data-titulo-boton]{
+        display:flex;
+    }
+
+    table td[data-titulo-boton]::before{
+        content: attr( data-titulo );
+        font-weight:bold;
+        color: steelblue;
+    }
+
+    table{
+        margin:10px 0;
+    }
+
+}
+

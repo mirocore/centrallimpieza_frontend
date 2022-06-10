@@ -1,0 +1,109 @@
+/* Generales */
+body{
+  background-color:#F5F5F5;
+}
+
+.texto-azul-principal{
+  color: #504EAE;
+}
+
+.fondo-azul-principal{
+  background-color: #504EAE
+}
+
+
+/* Navbar */
+.nav-item a{
+  text-decoration:none !important;
+}
+
+.nav-item{
+  padding:5px;
+}
+
+.nav-item:hover{
+  background-color: steelblue;
+  transition: all .2s;
+}
+
+.bg-navbar-cl{
+  background-color:#33699D;
+}
+
+/* Admin */
+
+.bg-table{
+  background-color:#EFEFFF;
+  color:#5C5B9A;
+}
+
+.table>:not(:first-child){
+  border-top:none !important;
+}
+
+.bg-footer{
+  background-color:#31679B;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: #FAFAFE;
+  color: #6E6E6E;
+}
+
+.table-striped>tbody>tr:nth-of-type(even)>* {
+  color: #6E6E6E;
+}
+
+.is-invalid{
+  border:3px solid red;
+}
+
+.btn-categorias{
+  color:white;
+  font-size:15px;
+  text-transform:capitalize;
+  border-radius:100px;
+  padding: .1rem 1rem;
+  text-align:center;
+}
+
+.btn-litros{
+  background-color: #002777;
+}
+
+.btn-unidades{
+  background-color: #0093D3;
+}
+
+#buscarCate, #orden{
+  display:inline-block;
+  padding:5px 15px;
+  margin-left: 10px;
+  border-radius:50px;
+  border:1px solid #DEDEEA;
+  font-size:14px;
+  color:#C0C0C0;
+}
+
+
+
+
+/* TABLA HOME */
+
+.tabla-main thead{
+  background-color:#2E9CCC ;
+  color:white ;
+}
+
+.tabla-main tbody{
+  background-color:#DEEDF7;
+}
+
+.tabla-main tbody tr:nth-of-type(odd)>* {
+  --bs-table-accent-bg: #6DBCE8 !important;
+  color: black;
+}
+
+.tabla-main tbody tr:nth-of-type(even)>* {
+  color: black;
+}
